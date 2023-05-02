@@ -1,0 +1,145 @@
+@media (max-width: 720px) {
+  :root {
+    --text_greyLight: #e4e5ea;
+    --text_greyDark: #656566;
+    --BG-color: #0e1014;
+    --btn-color: #4077f3;
+    --font-inter: "Inter", sans-serif;
+    --font-montserrat: "Montserrat", sans-serif;
+  }
+  .mobile {
+    display: flex;
+  }
+  .dekstop {
+    display: none!important;
+  }
+  h1,
+  h1 * {
+    font-size: 36px;
+  }
+  .header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 0px;
+  }
+
+  .header__logo {
+    display: none;
+  }
+  .header__info {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header__info a {
+    padding-left: 0;
+  }
+  .header__info .sertificate {
+    display: none;
+  }
+
+  .header__contacts {
+    display: none;
+  }
+
+  .main {
+    background-image: url("/images/bg_mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+  }
+  .main .container.d-flex {
+    display: inline-block !important;
+  }
+  .main__left {
+    margin-bottom: 45px;
+    text-align: left;
+  }
+  .main__left h1 {
+    margin-bottom: 15px;
+    margin-top: 40px;
+  }
+
+  .main__right {
+    text-align: left;
+  }
+  .main__right > p {
+    margin-bottom: 20px;
+  }
+  .main__right_advantages.mobile {
+    width: 100%;
+    padding-bottom: 59px;
+  }
+
+  .main__right_advantages.mobile .item span:nth-of-type(1) {
+    width: 15px;
+    height: 2px;
+    background: -webkit-linear-gradient(52deg, #fcb045 27.14%, #ff3f78 121.36%);
+    -webkit-text-fill-color: transparent;
+  }
+
+  .main__right_advantages .item > span {
+    font-size: 15px;
+
+  }
+  .main__right_advantages .item > p {
+    font-family: var(--font-montserrat);
+  }
+
+  .footer {
+    text-align: left!important;
+  }
+  .footer .mobile{
+    display: inline-block;
+  }
+  .footer > div > div {
+    width: auto;
+  }
+  .footer .d-flex{
+    display: inline-block;
+  }
+  .footer .footer__company > span,
+  .footer .footer__menu-left > span,
+  .footer .footer__menu-right > span,
+  .footer .footer__contacts > span {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 12px;
+  }
+  .footer .footer__company > a,
+  .footer .footer__menu-left > a,
+  .footer .footer__menu-right > a,
+  .footer .footer__contacts > a {
+    font-size: 14px;
+  }
+  .footer .footer__company > a:not(:first-of-type),
+  .footer .footer__menu-left > a:not(:first-of-type),
+  .footer .footer__menu-right > a:not(:first-of-type),
+  .footer .footer__contacts > a:not(:first-of-type) {
+    margin-top: 5px;
+  }
+  .footer .footer__company {
+    height: 85px;
+  }
+
+  .footer__contacts {
+    float: left;
+    text-align: left;
+  }
+  .footer__contacts .messagers {
+    margin:  5px 0px;
+    width: auto;
+    margin-left: 0;
+    margin-right: auto;
+  }
+  .footer__contacts .messagers a {
+    margin-right: 14px;
+    margin-left: 0px;
+  }
+
+  .footer__bottom {
+    float: left;
+    margin: 33px 0 20px;
+  }
+
+}
